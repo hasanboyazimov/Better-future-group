@@ -1,0 +1,52 @@
+
+.carousel-box {
+    background-color: #27AE60;
+    display: flex;
+    width: 100%;
+    margin-top: 100px;
+    height: 561px;
+
+}
+
+.product-info {
+    padding-left: 100px;
+    max-width: 480px;
+    color: #fff;
+    font-size: 20px;
+}
+
+.info-blog {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.carousel-blog {
+    padding-top: 70px;
+    width: 100%;
+}
+
+.product-imgBox {
+    display: flex;
+    flex-direction: row;
+    padding-left: 250px;
+    align-items: center;
+    background: url(../images/iPhone\ mockup.png)  no-repeat;
+    width: 100%;
+    background-position:bottom
+    /* background-size: cover; */
+}
+
+.blog-item {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: -20px;
+}
+
+.learn-more {
+    padding: 10px var(--spacing-2xl, 20px) 10px var(--spacing-3xl, 24px);
+    color: #27AE60;
+    border: none;
+    margin-top: 20px;
+}

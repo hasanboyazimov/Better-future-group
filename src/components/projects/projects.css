@@ -1,0 +1,61 @@
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1240px;
+    flex-wrap: wrap;
+    margin: 0 auto;
+  }
+
+  .projectsBlog {
+    background: rgba(51, 51, 51, 0.02);
+    margin-top: 50px;
+  }
+
+  .projectsTitle {
+    font-size: 36px;
+  }
+
+  .projectsBox {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 40px;
+  }
+
+  .projectBox {
+    /* width: 340px; */
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .projectInfo {
+    margin-top: 20px;
+    font-size: 18px;
+    opacity: 0.8;
+    max-width: 282px;
+    text-align: center;
+  }
+
+  .ProductIcon {
+    /* width: 90px; */
+    margin-bottom: 20px;
+  }
+
+
+  .projectCont {
+    /* display: flex;
+    flex-direction: column;
+    justify-content: space-between; */
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+
+  .trator {
+    margin-top: 50px;
+    margin-bottom: 60px;
+  }
+

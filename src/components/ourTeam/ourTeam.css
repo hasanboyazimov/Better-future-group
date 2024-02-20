@@ -1,0 +1,31 @@
+.team_photos {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.about_team {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.about_team p {
+    width: 792px;
+}
+
+.photo_box {
+    max-width: 260px;
+    width: 100%;
+    text-align: center;
+}
+
+.photo_box p {
+    color: #2EB1FC;
+}
+
+.team_blog {
+    margin-top: 70px;
+}

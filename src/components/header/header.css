@@ -1,0 +1,48 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 1240px;
+  flex-wrap: wrap;
+  margin: 0 auto;
+}
+
+a:hover {
+  cursor: pointer;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+.textBlue {
+  color: #2eb1fc;
+}
+
+.headerInfoTitle {
+  font-size: 48px;
+  font-weight: 600;
+  color: black;
+}
+
+.playVideoButton {
+  padding: 10px var(--spacing-2xl, 20px) 10px var(--spacing-3xl, 24px);
+  font-size: 14px;
+  border: none;
+  background: rgba(46, 177, 252, 0.15);
+  color: #2eb1fc;
+}
+
+.headerInfo {
+  width: 50%;
+  padding-right: 20px;
+}
+
+.headerInfoText {
+  padding-right: 20px;
+  font-size: 20px;
+  font-weight: 400;
+  color: #333;
+  opacity: 0.8;
+}
+

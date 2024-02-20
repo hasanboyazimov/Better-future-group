@@ -1,0 +1,35 @@
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1240px;
+    flex-wrap: wrap;
+    margin: 0 auto;
+  }
+
+.about_photo-box {
+  width: 50%;
+}
+
+.about-btn {
+  padding: 10px var(--spacing-2xl, 20px);
+  border: none;
+  color: #fff;
+  background-color: #27AE60;
+  font-size: 14px;
+  margin-top: 50px;
+}
+
+.about_info {
+  width: 50%;
+  font-size: 20px;
+}
+
+.about_info-title {
+  font-size: 36px;
+  font-weight: 600;
+}
+
+.about_info p {
+  margin-top: 50px;
+}
